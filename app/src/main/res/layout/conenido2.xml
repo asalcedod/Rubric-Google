@@ -39,6 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:onClick="delet"
             android:text="Eliminar" />
         <Button
@@ -46,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:onClick="end"
             android:text="Finalizar" />
     </LinearLayout>

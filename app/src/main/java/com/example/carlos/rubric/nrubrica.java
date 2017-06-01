@@ -143,7 +143,7 @@ public class nrubrica extends AppCompatActivity {
     private void writeNewRubri(String rubricname, int cat, int lvl) {
         FBRubric fbr=new FBRubric(rubricname,cat,lvl);
 
-        myRef.child("rubrics").child(rubricname).setValue(fbr);
+        myRef.child("Rubric").child(rubricname).setValue(fbr);
     }
 
     public void next(View view) {
