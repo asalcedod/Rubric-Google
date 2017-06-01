@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carlos.rubric">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".AddAsignatura" />
+        <activity
+            android:name=".nrubrica"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".contenido" />
+        <activity android:name=".conenido2" />
+        <activity
+            android:name=".AsignaturasActivity"
+            android:label="@string/title_activity_asignaturas"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".AddEvaluacionActivity" />
+        <activity android:name=".AddEstudiante" />
+        <activity android:name=".EvaluacionActivity" />
+        <activity android:name=".AddNotaActivity" />
+        <activity android:name=".Acceder">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
